@@ -1,0 +1,9 @@
+version: "3.8"
+
+services:
+  app:
+    build: .
+    ports:
+      - "3119:8083" # hostPort:containerPort
+    env_file:
+      - .env
