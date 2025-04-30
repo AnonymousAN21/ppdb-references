@@ -9,8 +9,6 @@ import (
 	"github.com/gin-gonic/gin"
 )
 
-// var jwtSecret = []byte("eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE3NDQ0NzM4NDksImlhdCI6MTc0NDQzNzg0OSwiaXNfc3R1ZGVudCI6ZmFsc2UsIm5iZiI6MTc0NDQzNzg0OSwib3JnYW5pemF0aW9uX2lkIjoiIiwicm9sZV9pZCI6MCwidXNlcl9pZCI6Ijk4MThmMzMyLTczMDctNDYxNC05NzcxLTNlODQ5NzY5YmYzOCJ9.h1O3rN73fCK5CAk0wAEek6GBFQBoSQ21hqXhNmWgCnk")
-
 func main() {
 
 	db := connection.Conn()
